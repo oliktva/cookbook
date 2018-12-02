@@ -26,3 +26,19 @@ fields:
 - type: tag_list
   name: tags
   label: tags
+- type: field_group_list
+  name: ingradients
+  label: ingredients
+  config:
+    min: '1'
+  fields:
+  - type: text
+    label: name
+    name: name
+    config:
+      required: true
+  - type: text
+    name: value
+    label: value
+    config:
+      required: true
