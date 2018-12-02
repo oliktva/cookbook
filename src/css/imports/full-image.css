@@ -1,0 +1,26 @@
+.full-image__wrapper {
+  position: relative;
+  flex-grow: 2;
+  width: 100%;
+  height: calc(100vh - 198px);
+  overflow: hidden;
+}
+
+.full-image__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 800px) {
+  .full-image__wrapper {
+    height: calc(100vh - 213px);
+  }
+
+  .full-image__content {
+    width: auto;
+    height: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Bold.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-Bold.woff);
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <main class="page-wrapper">
+    <section class="page-wrapper__main">
+      {{ partial "title" . }}
+      {{ $randomPosts := shuffle .Site.Pages | first 3 }}
+      <ul class="posts">
+        {{ range $randomPosts }}
+          <li class="posts__item">
+            {{ partial "post-preview" . }}
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  </main>
+{{end}}

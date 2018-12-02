@@ -1,0 +1,23 @@
+<nav class="main-nav">
+  <ul class="main-nav__list">
+    <li class="main-nav__item">
+      <a class="main-nav__link main-nav__link_main" href="{{ .Site.BaseURL }}">
+        {{ .Site.Data.main.title }}
+      </a>
+    </li>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.header }}
+      <li class="main-nav__item">
+        {{ if $currentPage.IsMenuCurrent "header" . }}
+          <a class="main-nav__link" href="{{ .URL }}">
+            <span class="main-nav__link main-nav__link_active">{{ .Name }}</span>
+          </a>
+        {{ else }}
+          <a class="main-nav__link" href="{{ .URL }}">
+            <span>{{ .Name }}</span>
+          </a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</nav>

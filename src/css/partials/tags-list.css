@@ -1,0 +1,22 @@
+.tags-list {
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.tags-list__item {
+  display: inline-block;
+}
+
+.tags-list__link {
+  margin-right: 1rem;
+  font-size: 0.75rem;
+  color: #1a1a1a;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #d17d74;
+}
+
+.tags-list__link:hover {
+  color: #999;
+}

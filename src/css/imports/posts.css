@@ -1,0 +1,27 @@
+.posts {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.posts__item {
+  padding: 4rem 0 2rem;
+  border-bottom: 1px solid #e1e0e1;
+}
+
+.posts__item:first-child {
+  padding-top: 0;
+}
+
+.posts__item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .posts {
+    max-width: 768px;
+  }
+}

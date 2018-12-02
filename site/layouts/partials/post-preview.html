@@ -1,0 +1,14 @@
+<article class="post-preview">
+  {{ partial "tags-list" . }}
+  <a class="post-preview__link" href="{{ .Permalink }}">
+    <h2 class="post-preview__heading">{{ .Params.heading }}</h2>
+  </a>
+  {{ if ne .Params.image nil }}
+    <div class="post-preview__image">
+      <img src="{{ .Params.image }}" alt="{{ .Params.heading }}">
+    </div>
+  {{ end }}
+  <p class="post-preview__text">
+    {{ .Params.preview_text }}
+  </p>
+</article>

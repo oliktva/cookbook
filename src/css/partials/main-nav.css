@@ -1,0 +1,38 @@
+.main-nav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__link {
+  display: block;
+  padding: 8px 16px 8px 0;
+  font-family: 'Lora', Georgia, serif;
+  border: none;
+}
+
+.main-nav__link_main {
+  margin-right: 16px;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.5rem;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.main-nav__link:not(.main-nav__link_main):hover {
+  color: #999;
+}
+
+@media screen and (max-width: 800px) {
+  .main-nav__link {
+    margin-right: 8px;
+    padding-right: 8px;
+    font-size: 0.875rem;
+  }
+
+  .main-nav__link_main {
+    font-size: 1.125rem;
+  }
+}

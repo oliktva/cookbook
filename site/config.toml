@@ -1,0 +1,52 @@
+baseurl = "/"
+languageCode = "ru-ru"
+languageLang = "ru"
+title = "Soul Kitchen. The cookbook."
+paginate = 10
+
+[permalinks]
+  posts = "/recipies/:slug"
+  tags = "/tags/:slug"
+
+disableKinds = ["RSS", "taxonomyTerm"]
+
+[menu]
+
+  [[menu.main]]
+    identifier = "salads"
+    name = "Салаты"
+    url = "/tags/salads"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "soups"
+    name = "Супы"
+    url = "/tags/soups"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "main"
+    name = "Основные блюда"
+    url = "/tags/main"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "breakfasts"
+    name = "Завтраки"
+    url = "/tags/breakfasts"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "desserts"
+    name = "Десерты"
+    url = "/tags/desserts"
+    weight = 5
+
+  [[menu.header]]
+    identifier = "recipies"
+    name = "Все рецепты"
+    url = "/recipies"
+    weight = 1
+
+[taxonomies]
+  tag = "tags"

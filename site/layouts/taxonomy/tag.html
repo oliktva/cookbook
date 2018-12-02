@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ $currentTag := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+  {{ $tagPages := index .Site.Taxonomies.tags $currentTag }}
+  <main class="page-wrapper">
+    <section class="page-wrapper__main">
+      <ul class="posts">
+        {{ range $tagPages }}
+          <li class="posts__item">
+            {{ partial "post-preview" . }}
+          </li>
+        {{ end }}
+      </ul>
+      {{ template "_internal/pagination.html" . }}
+    </section>
+  </main>
+{{ end }}

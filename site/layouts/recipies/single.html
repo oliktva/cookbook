@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <main class="page-wrapper">
+    <div class="post">
+      <h2 class="post__heading">{{ .Params.heading }}</h2>
+      <div class="post__ingredients">
+        {{ range .Params.ingredients }}
+          <span class="post__ingredient-name">{{ .name }}</span>
+          <span class="post__ingredient-value">{{ .value }}</span>
+        {{ end }}
+      </div>
+      <div class="post__description">
+        {{ .Content }}
+      </div>
+      {{ partial "tags-list" . }}
+    </div>
+  </main>
+{{ end }}

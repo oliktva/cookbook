@@ -1,0 +1,27 @@
+<div class="pagination">
+  {{ $pag := $.Paginator }}
+  {{ $curpage := $pag.PageNumber }}
+  {{ if gt $pag.TotalPages 1 }}
+    {{ if $pag.HasPrev }}
+      <a class="pagination__page pagination__page_prev" href="{{ $pag.Prev.URL }}">
+        {{ partial "arrow.html" }}
+      </a>
+    {{ end }}
+    {{ range $pag.Pagers }}
+      {{ if eq .PageNumber $curpage }}
+        <span class="pagination__page pagination__page_active">
+          {{ .PageNumber }}
+        </span>
+      {{ else }}
+        <a class="pagination__page" href="{{ .URL }}">
+          {{ .PageNumber }}
+        </a>
+      {{ end }}
+    {{ end }}
+    {{ if $pag.HasNext }}
+      <a class="pagination__page pagination__page_next" href="{{ $pag.Next.URL }}">
+        {{ partial "arrow.html" }}
+      </a>
+    {{ end }}
+  {{ end }}
+</div>

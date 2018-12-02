@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <main class="page-wrapper">
+    <section class="page-wrapper__main">
+      <ul class="posts">
+        {{ range .Paginator.Pages }}
+          <li class="posts__item">
+            {{ .Render "summary" }}
+          </li>
+        {{ end }}
+      </ul>
+      {{ partial "pagination.html" . }}
+    </section>
+  </main>
+{{ end }}

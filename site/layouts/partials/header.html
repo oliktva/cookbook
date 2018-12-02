@@ -1,0 +1,18 @@
+<header class="header">
+  {{ partial "main-nav" . }}
+  <div class="header__menu">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="{{ .URL }}">
+              <span>{{ .Name }}</span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+    {{ partial "hamburger" . }}
+  </div>
+</header>
