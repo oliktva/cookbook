@@ -11,7 +11,7 @@
     "start": "gulp server",
     "start-preview": "gulp server-preview",
     "lint": "eslint src",
-    "serve-site": "node src/server.js"
+    "serve-site": "gulp build && gulp minifyHtml && node src/server.js"
   },
   "author": "",
   "license": "MIT",
