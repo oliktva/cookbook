@@ -27,7 +27,7 @@ fields:
   name: tags
   label: tags
 - type: field_group_list
-  name: ingradients
+  name: ingredients
   label: ingredients
   config:
     min: '1'
