@@ -42,3 +42,5 @@ fields:
     label: value
     config:
       required: true
+pages:
+- site/content/recipies/тыквенный-суп-пюре.md
