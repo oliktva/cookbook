@@ -9,9 +9,7 @@ app.use(function(err, req, res, next){
 });
 
 // Render the app
-app.get('/', function(req, res) {
-  res.sendfile(path.join(__dirname, '../dist/'));
-});
+app.use(express.static(path.join(__dirname, '../dist')));
 
 //start server
 var port = process.env.PORT || 5000;
