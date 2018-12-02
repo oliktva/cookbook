@@ -1,0 +1,28 @@
+---
+label: recipy
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: title
+  name: title
+  config:
+    required: true
+- type: text
+  name: heading
+  label: heading
+  config:
+    required: true
+- type: text
+  name: preview_text
+  label: preview_text
+  config:
+    required: true
+- type: text
+  name: image
+  label: image
+  config:
+    required: false
+- type: tag_list
+  name: tags
+  label: tags
