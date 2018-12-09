@@ -3,7 +3,7 @@ date = "2018-12-09T22:23:13+03:00"
 heading = "Классический красный соус"
 image = ""
 preview_text = "Этот соус можно использовать и для пиццы, и для пасты."
-tags = ["paste", "italian"]
+tags = ["paste", "italian", "pizza"]
 title = "classic- tomato-paste"
 [[ingredients]]
 name = "оливковое масло"
