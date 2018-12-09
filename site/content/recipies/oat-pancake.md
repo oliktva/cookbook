@@ -3,7 +3,7 @@ date = "2018-12-09T21:25:11+03:00"
 heading = "Овсяный блин"
 image = ""
 preview_text = "Отличный завтрак, если надоели каши. Блин можно сделать как сладким, так и не сладким, например, с сыром и зеленью."
-tags = ["breakfasts", "oat", "pancakes", "dessert"]
+tags = ["breakfasts", "oat", "pancakes", "desserts"]
 title = "oat-pancake"
 [[ingredients]]
 name = "овсянка"
