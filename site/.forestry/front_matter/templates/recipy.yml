@@ -44,5 +44,4 @@ fields:
       required: true
 pages:
 - site/content/recipies/mumintroll-pancakes.md
-- site/content/recipies/суп-из-печеного-перца-и-киноа.md
 - site/content/recipies/pumpkin-soup.md
