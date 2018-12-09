@@ -3,7 +3,7 @@ date = "2018-12-09T10:08:08+03:00"
 heading = "Оладьи Муми-тролля"
 image = ""
 preview_text = "Рецепт литературной кухни Seasons of life по мотивам книги сказок и рисунков Туве Янссон о приключениях Муми-тролля."
-tags = ["breakfasts", "pancakes"]
+tags = ["breakfasts", "pancakes", "desserts"]
 title = "mumintroll-pancakes"
 [[ingredients]]
 name = "кефир"
