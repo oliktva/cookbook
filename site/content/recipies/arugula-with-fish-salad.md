@@ -3,7 +3,7 @@ date = "2018-12-09T21:49:45+03:00"
 heading = "Cалат из рукколы с красной рыбой"
 image = ""
 preview_text = "Сытный и простой салат из рукколы, который благодаря красной рыбе может стать отличным полноценным блюдом"
-tags = ["salad", "arugula", "fish"]
+tags = ["arugula", "fish", "salads"]
 title = "arugula-with-fish-salad"
 [[ingredients]]
 name = "руккола"
