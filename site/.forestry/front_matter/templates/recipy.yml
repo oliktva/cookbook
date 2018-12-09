@@ -47,7 +47,6 @@ pages:
 - site/content/recipies/quiche-with-spinach-and-ricotta.md
 - site/content/recipies/neapolitan-pizza.md
 - site/content/recipies/quinoa-pepper-soup.md
-- site/content/recipies/oat-pancake.md
 - site/content/recipies/chicken-with-herbs.md
 - site/content/recipies/arugula-salad.md
 - site/content/recipies/arugula-with-fish-salad.md
@@ -55,4 +54,5 @@ pages:
 - site/content/recipies/white-sauce.md
 - site/content/recipies/classic-tomato-paste.md
 - site/content/recipies/neapolitan-pizza-kinds.md
+- site/content/recipies/oat-pancake.md
 - site/content/recipies/pumpkin-soup.md
