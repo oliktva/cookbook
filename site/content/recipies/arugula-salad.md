@@ -3,7 +3,7 @@ date = "2018-12-09T21:43:29+03:00"
 heading = "Салат из рукколы с пармезаном"
 image = ""
 preview_text = "Легкий салат в итальянском стиле."
-tags = ["salad", "arugula"]
+tags = ["arugula", "salads"]
 title = "arugula-salad"
 [[ingredients]]
 name = "руккола"
