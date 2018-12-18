@@ -43,7 +43,6 @@ fields:
     config:
       required: true
 pages:
-- site/content/recipies/chocolate-cake-with-ricotta.md
 - site/content/recipies/mushrooms-soup.md
 - site/content/recipies/chicken-by-grandma.md
 - site/content/recipies/chicken-with-basil.md
@@ -56,6 +55,7 @@ pages:
 - site/content/recipies/californian-salad.md
 - site/content/recipies/chicken-soup.md
 - site/content/recipies/pilaf.md
+- site/content/recipies/chocolate-cake-with-ricotta.md
 - site/content/recipies/quiche-with-spinach-and-ricotta.md
 - site/content/recipies/neapolitan-pizza.md
 - site/content/recipies/quinoa-pepper-soup.md
