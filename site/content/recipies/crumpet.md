@@ -2,7 +2,7 @@
 date = "2018-12-18T21:14:08+03:00"
 heading = "Пышки"
 image = ""
-preview_text = "Еще один рецепт из детства"
+preview_text = "Еще один рецепт из детства."
 tags = ["desserts"]
 title = "crumpet"
 [[ingredients]]
