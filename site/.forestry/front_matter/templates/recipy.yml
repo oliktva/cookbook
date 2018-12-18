@@ -44,6 +44,7 @@ fields:
       required: true
 pages:
 - site/content/recipies/mushrooms-soup.md
+- site/content/recipies/chicken-by-grandma.md
 - site/content/recipies/quiche-with-spinach-and-ricotta.md
 - site/content/recipies/neapolitan-pizza.md
 - site/content/recipies/quinoa-pepper-soup.md
