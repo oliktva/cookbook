@@ -1,6 +1,27 @@
 +++
 date = "2018-12-18T21:03:19+03:00"
-draft = true
+heading = "Тушенные кабачки"
+image = ""
+preview_text = "Мамин рецепт тушенных кабачков."
+tags = ["main", "vegetables"]
 title = "stewed-zucchini"
+[[ingredients]]
+name = "небольшой кабачок"
+value = "2 шт"
+[[ingredients]]
+name = "перец болгарский"
+value = "1-2 шт"
+[[ingredients]]
+name = "помидор"
+value = "1-2 шт"
+[[ingredients]]
+name = "укроп, петрушка"
+value = "по вкусу"
+[[ingredients]]
+name = "соль, перец"
+value = "по вкусу"
 
 +++
+1. Нарезать овощи, сложить в мультиварку или чугунную кастрюлю для тушения.
+2. Добавить соль, перец и зелень.
+3. Тушить 40 мин - 1 час.
