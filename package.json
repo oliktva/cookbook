@@ -11,7 +11,8 @@
     "start": "gulp server",
     "start-preview": "gulp server-preview",
     "lint": "eslint src",
-    "serve-site": "gulp build && gulp minifyHtml && node src/server.js"
+    "serve-site": "gulp build && gulp minifyHtml && node src/server.js",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "author": "",
   "license": "MIT",
@@ -49,5 +50,6 @@
   },
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "heroku-run-build-script": true
 }
