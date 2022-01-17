@@ -11,6 +11,11 @@
       <div class="post__description">
         {{ .Content }}
       </div>
+      {{ if .Params.note }}
+        <div class="post__note">
+          {{ .Params.note }}
+        </div>
+      {{ end }}
       {{ partial "tags-list" . }}
     </div>
   </main>

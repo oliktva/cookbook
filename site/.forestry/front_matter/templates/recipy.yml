@@ -22,6 +22,11 @@ fields:
   label: image
   config:
     required: false
+- type: text
+  name: note
+  label: note
+  config:
+    required: false
 - type: tag_list
   name: tags
   label: tags
