@@ -4,9 +4,6 @@ languageLang = "ru"
 title = "Soul Kitchen. The cookbook."
 paginate = 10
 
-[permalinks]
-  posts = "/recipies/:slug"
-  tags = "/tags/:slug"
 
 disableKinds = ["RSS", "taxonomyTerm"]
 
@@ -50,3 +47,7 @@ disableKinds = ["RSS", "taxonomyTerm"]
 
 [taxonomies]
   tag = "tags"
+
+[permalinks]
+  posts = "/recipies/:slug"
+  tags = "/tags/:slug"

@@ -9,7 +9,7 @@ import cssImport from 'postcss-import';
 import postcssPresetEnv from 'postcss-preset-env';
 import BrowserSync from 'browser-sync';
 import webpack from 'webpack';
-import webpackConfig from './webpack.conf';
+import webpackConfig from './webpack.conf.js';
 import minifyHtml from 'gulp-htmlmin';
 
 const browserSync = BrowserSync.create();
@@ -17,18 +17,6 @@ const browserSync = BrowserSync.create();
 // Hugo arguments
 const hugoArgsDefault = ['-d', '../dist', '-s', 'site', '-v'];
 const hugoArgsPreview = ['--buildDrafts', '--buildFuture'];
-
-// Development tasks
-gulp.task('hugo', (cb) => buildSite(cb));
-gulp.task('hugo-preview', (cb) => buildSite(cb, hugoArgsPreview));
-
-// Run server tasks
-gulp.task('server', ['hugo', 'css', 'js', 'fonts'], (cb) => runServer(cb));
-gulp.task('server-preview', ['hugo-preview', 'css', 'js', 'fonts'], (cb) => runServer(cb, 'hugo-preview'));
-
-// Build/production tasks
-gulp.task('build', ['css', 'js', 'fonts'], (cb) => buildSite(cb, [], 'production'));
-gulp.task('build-preview', ['css', 'js', 'fonts'], (cb) => buildSite(cb, hugoArgsPreview, 'production'));
 
 // Compile CSS with PostCSS
 gulp.task('css', () => (
@@ -102,3 +90,16 @@ function buildSite(cb, options, environment = 'development') {
     }
   });
 }
+
+// Development tasks
+gulp.task('hugo', (cb) => buildSite(cb));
+gulp.task('hugo-preview', (cb) => buildSite(cb, hugoArgsPreview));
+
+// Run server tasks
+gulp.task('server', gulp.series('hugo', 'css', 'js', 'fonts', (cb) => runServer(cb)));
+gulp.task('server-preview', gulp.series('hugo-preview', 'css', 'js', 'fonts', (cb) => runServer(cb, 'hugo-preview')));
+
+// Build/production tasks
+gulp.task('build', gulp.series('css', 'js', 'fonts', (cb) => buildSite(cb, [], 'production')));
+gulp.task('build-preview', gulp.series('css', 'js', 'fonts', (cb) => buildSite(cb, hugoArgsPreview, 'production')));
+
