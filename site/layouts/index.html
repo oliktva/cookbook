@@ -2,9 +2,9 @@
   <main class="page-wrapper">
     <section class="page-wrapper__main">
       {{ partial "title" . }}
-      {{ $randomPosts := shuffle $.Site.RegularPages | first 3 }}
+      {{ $randomPosts := shuffle $.Site.RegularPages }}
       <ul class="posts">
-        {{ range $randomPosts }}
+        {{ range first 3 $randomPosts }}
           <li class="posts__item">
             {{ partial "post-preview" . }}
           </li>
