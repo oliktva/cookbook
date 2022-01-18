@@ -2,12 +2,15 @@
   <main class="page-wrapper">
     <div class="post">
       <h2 class="post__heading">{{ .Params.heading }}</h2>
+      <h3 class="post__ingredients-heading">Ингредиенты</h3>
       <div class="post__ingredients">
         {{ range .Params.ingredients }}
+          <span class="post__ingredient-bullet">•</span>
           <span class="post__ingredient-name">{{ .name }}</span>
           <span class="post__ingredient-value">{{ .value }}</span>
         {{ end }}
       </div>
+      <h3 class="post__description-heading">Рецепт</h3>
       <div class="post__description">
         {{ .Content }}
       </div>

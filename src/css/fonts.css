@@ -1,5 +1,12 @@
 @font-face {
   font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Light.woff);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
   src: url(../fonts/OpenSans-Regular.woff);
   font-weight: normal;
   font-style: normal;
