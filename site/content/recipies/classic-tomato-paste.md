@@ -4,8 +4,8 @@ heading = "Классический красный соус"
 image = ""
 note = ""
 preview_text = "Этот соус можно использовать и для пиццы, и для пасты."
-tags = ["paste", "italian", "pizza", "sauce"]
-title = "classic- tomato-paste"
+tags = ["paste", "italian", "pizza", "sauces"]
+title = "classic-tomato-paste"
 [[ingredients]]
 name = "оливковое масло"
 value = "1 шт"
