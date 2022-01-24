@@ -2,8 +2,9 @@
 date = "2018-12-09T22:32:09+03:00"
 heading = "Классический итальянский белый соус"
 image = ""
+note = ""
 preview_text = "Классический белый соус для неаполитанской пиццы."
-tags = ["pizza", "italian"]
+tags = ["pizza", "italian", "sauce"]
 title = "white-sauce"
 [[ingredients]]
 name = "мука"
