@@ -4,7 +4,7 @@ heading = "Классический итальянский белый соус"
 image = ""
 note = ""
 preview_text = "Классический белый соус для неаполитанской пиццы."
-tags = ["pizza", "italian", "sauce"]
+tags = ["pizza", "italian", "sauces"]
 title = "white-sauce"
 [[ingredients]]
 name = "мука"
