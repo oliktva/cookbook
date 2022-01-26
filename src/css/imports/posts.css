@@ -1,13 +1,13 @@
 .posts {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   padding: 0;
   list-style: none;
 }
 
 .posts__item {
-  padding: 4rem 0 2rem;
+  padding: 3rem 0;
   border-bottom: 1px solid #e1e0e1;
 }
 

@@ -1,5 +1,4 @@
 <article class="post-preview">
-  {{ partial "tags-list" . }}
   <a class="post-preview__link" href="{{ .Permalink }}">
     <h2 class="post-preview__heading">{{ .Params.heading }}</h2>
   </a>
@@ -11,4 +10,5 @@
   <p class="post-preview__text">
     {{ .Params.preview_text }}
   </p>
+  {{ partial "tags-list" . }}
 </article>

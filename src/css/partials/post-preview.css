@@ -1,7 +1,7 @@
 .post-preview__heading {
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.5rem;
   font-family: 'Lora', Georgia, serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 0.125rem;
 }
@@ -30,4 +30,8 @@
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
+}
+
+.post-preview .tags-list {
+  margin: 1rem 0 0;
 }
