@@ -3,7 +3,7 @@ heading = "Лимонная запеканка"
 image = ""
 note = ""
 preview_text = "Вкусная и простая лимонная запеканка с рикоттой"
-tags = ["dessert"]
+tags = ["dessert", "breakfasts"]
 title = " lemon-casserole"
 [[ingredients]]
 name = "яйца"
