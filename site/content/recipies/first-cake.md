@@ -10,7 +10,7 @@ name = "спелый банан"
 value = "1 шт"
 [[ingredients]]
 name = "яйца"
-value = "1 шт"
+value = "2 шт"
 [[ingredients]]
 name = "ванильный экстракт"
 value = "1 ч. л."
